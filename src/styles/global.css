@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: rgb(27, 27, 28);
+}
+
+body {
+  --bg-color: white;
+  --font-color: #1b1b1c;
+  --bg-category: #eee;
+  --font-category: #555;
+}
+body.dark-theme {
+  --bg-color: #1b1b1c;
+  --font-color: white;
+  --bg-category: #2d2d2d;
+  --font-category: white;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 50px;
+  font-weight: 700;
+}
